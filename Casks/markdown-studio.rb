@@ -8,7 +8,7 @@ cask "markdown-studio" do
   desc "Markdown editor with live preview and Mermaid diagram support"
   homepage "https://github.com/theoklitosBam7/markdown-studio"
 
-  arch arm: :arm64
+  arch arm: "arm64"
 
   depends_on macos: ">= :big_sur"
 
