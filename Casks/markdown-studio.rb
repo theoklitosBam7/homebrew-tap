@@ -10,7 +10,7 @@ cask "markdown-studio" do
 
   arch arm: "arm64"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Markdown Studio.app"
 
@@ -20,8 +20,6 @@ cask "markdown-studio" do
     system_command "touch",
       args: ["#{appdir}/Markdown Studio.app/Contents/Resources/.homebrew-install"]
   end
-
-  uninstall delete: "#{appdir}/Markdown Studio.app"
 
   zap delete: "~/Library/Application Support/Markdown Studio"
 end
