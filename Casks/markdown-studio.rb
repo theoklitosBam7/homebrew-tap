@@ -1,6 +1,6 @@
 cask "markdown-studio" do
-  version "0.15.0"
-  sha256 "53f5044e1cbfacc3ccdae076b1e4aca9a256f795f3fddf52d3f0928773ae5278"
+  version "0.15.1"
+  sha256 "0f1e6b1f676f3a95d8eb3128c32d9d14537e02ddbc903a94db1f6c0907d991c8"
 
   url "https://github.com/theoklitosBam7/markdown-studio/releases/download/desktop-v#{version}/Markdown.Studio-#{version}-arm64.dmg"
   name "Markdown Studio"
